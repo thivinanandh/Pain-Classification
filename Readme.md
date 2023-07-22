@@ -1,8 +1,7 @@
-## ![horizontal line]
+# Pain Classification
+---
 
-**─**
 
-# Question 1 : Classifier Selection 
 
 First we validated our model with more than 6 different models, they are
 
@@ -79,7 +78,7 @@ performed best with the following hyperparameters
 
 -   *n_estimators=10*
 
-# Question 2 :Best Datatype
+## Best Datatype
 
 WE had classified all the datatypes and compared all of their scores,
 out of which **sys** had the highest accuracy and precision
@@ -112,21 +111,16 @@ arthritis.
 
 ![](images/media/image4.png)
 
-# Question 3: Data Fusion
+## Data Fusion
+---
 
-## Why Fusion works
 
 Data integration is especially effective in machine learning for the
 various reasons. Some of them are
 
 -   Understanding data from various perspectives, Different data sources
-    > may offer various viewpoints on a problem or occurrence; by
-    > combining these sources, data fusion can offer a more thorough
-    > understanding of the problem at hand.
-
--   Reduce the Overfitting nature of the model, Multiple resources in
-    > hand can provide multiple information and generalizing the model
-    > more so that we can reduce overfitting of the model.
+- may offer various viewpoints on a problem or occurrence
+-   Reduce the Overfitting nature of the model
 
 ## Did it have higher accuracy
 
@@ -142,7 +136,9 @@ features fused together, The fusion might increase the overall variance
 of the data (more generalization), however it adds non significant data
 points to the training space.
 
-# Question 4: Box Plot
+# Box Plot
+---
+
 
 ## Variance in Data Columns
 
@@ -159,17 +155,15 @@ points to the training space.
 The increased difference in variance of sys values makes this parameter
 perform well.
 
-# Question 5: Higher variance
+## Higher variance
+---
 
 ![](images/media/image5.png)
 
 We can see that the **sys** has more variance in the data when compared
 to the other data types.
 
--   More variance means, we should have more differentiating factor
-    > between two classes
-
--   Which can help the model classify the values better
+-   More variance means, we should have more differentiating factor between two classes Which can help the model classify the values better
 
 This can be seen from below plot
 
